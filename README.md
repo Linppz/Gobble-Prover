@@ -16,7 +16,7 @@ Pengzhen Lin, Ke Zhang, Maziar Raissi, Zhouxing Shi. University of California, R
 
 ## Model
 
-https://huggingface.co/Linppz/Gobble-Prover-1.7B
+https://huggingface.co/Pengzhen23/Gobble-Prover-1.7B
 
 This is our released model, Gobble-Prover-1.7B. You can download it
 directly and run it on your own server to reproduce our work. hope you enjoy it!
@@ -56,7 +56,7 @@ python sample.py     # downloads the model from Hugging Face, one proof per form
 python judge.py      # compiles with ./mathlib4 -> results.jsonl and the summary table
 ```
 
-Defaults: `--model Linppz/Gobble-Prover-1.7B`, `--n 1` (use `--n 4` or `--n 8` for
+Defaults: `--model Pengzhen23/Gobble-Prover-1.7B`, `--n 1` (use `--n 4` or `--n 8` for
 roll 4/8 times for each formal statement), `--out rolls.jsonl`; `judge.py` reads `rolls.jsonl`, writes `results.jsonl`, uses 8 workers and a
 120 s timeout per Lean call (`--workers`, `--timeout`). `--top_c` sets how many declared values are compiled
 (default 2, as in the paper)

@@ -5,7 +5,7 @@ from vllm import LLM, SamplingParams
 from prompt import render
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--model", default="Linppz/Gobble-Prover-1.7B")
+ap.add_argument("--model", default="Pengzhen23/Gobble-Prover-1.7B")
 ap.add_argument("--data", default="data/Experiment.json")
 ap.add_argument("--out", default="rolls.jsonl")
 ap.add_argument("--n", type=int, default=1, help="samples per formal statement (1, 4, 8, ...)")
