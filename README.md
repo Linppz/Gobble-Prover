@@ -22,8 +22,6 @@ Pengzhen Lin, Ke Zhang, Maziar Raissi, Zhouxing Shi. University of California, R
 * **Flags unfaithful statements.** The prover declares up to two values its proof covers. If two mathematically
   distinct values both compile under the same statement, the formal statement does not pin down the problem. The
   paper finds at least 6.1% of autoformalized competition statements this way, with no extra judge model.
-* **Lean-checked output.** Nothing is reported unless Lean accepted it; proofs that use `sorry`, `admit` or
-  `native_decide` are rejected, and the statement outside the answer slot must match the input exactly.
 
 ## Install
 
