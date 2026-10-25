@@ -1,0 +1,20 @@
+[
+{
+  "name": "linear",
+  "problem": "If 2x + 3 = 11, what is x? (the correct answer is among the candidates)",
+  "template": "import Mathlib\n\ntheorem linear (x : ℝ) (h : 2 * x + 3 = 11) :\n    x = <candidate> := by sorry",
+  "menu": ["4", "7", "5.5"]
+},
+{
+  "name": "product",
+  "problem": "a + b = 10 and a - b = 4. What is ab? (no candidate is correct: the prover has to write in 21)",
+  "template": "import Mathlib\n\ntheorem product (a b : ℝ) (h₁ : a + b = 10) (h₂ : a - b = 4) :\n    a * b = <candidate> := by sorry",
+  "menu": ["20", "24"]
+},
+{
+  "name": "writein",
+  "problem": "3n = 21. What is n? (no candidates at all: write-in only)",
+  "template": "import Mathlib\n\ntheorem writein (n : ℕ) (h : 3 * n = 21) :\n    n = <candidate> := by sorry",
+  "menu": []
+}
+]

@@ -5,3 +5,6 @@ results*.jsonl
 *.log
 mathlib4/
 .venv/
+results*.json
+*.egg-info/
+build/

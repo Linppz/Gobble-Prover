@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gobble-prover"
+version = "0.1.0"
+description = "Lean 4 prover for statements with multiple candidate answers: selects or writes in the answer and proves it in one call"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["vllm", "transformers", "sympy", "math-verify"]
+
+[project.urls]
+Repository = "https://github.com/Linppz/Gobble-Prover"
+Model = "https://huggingface.co/Pengzhen23/Gobble-Prover-1.7B"
+
+[project.scripts]
+gobble-prover = "gobble_prover.prove:main"
+
+[tool.setuptools]
+packages = ["gobble_prover"]
