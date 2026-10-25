@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+rolls*.jsonl
+results*.jsonl
+*.log
+mathlib4/
+.venv/
