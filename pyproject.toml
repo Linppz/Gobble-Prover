@@ -8,6 +8,8 @@ version = "0.1.0"
 description = "Lean 4 prover for statements with multiple candidate answers: selects or writes in the answer and proves it in one call"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 dependencies = ["vllm", "transformers", "sympy", "math-verify"]
 
 [project.urls]

@@ -138,6 +138,10 @@ judging about 25 minutes with 8 workers.
 | AMC23 | 39 | 30.8% | 5.1% |
 | Overall | 99 | 25.3% | 8.1% |
 
+## License
+
+Apache License 2.0 (same as the model and its base model). See `LICENSE`.
+
 ## Citation
 
 ```bibtex
